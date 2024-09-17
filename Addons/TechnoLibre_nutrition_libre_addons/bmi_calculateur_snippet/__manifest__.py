@@ -9,9 +9,9 @@
     'website': 'http://www.votre-website.com',
     'depends': ['website'], # Assure-toi que le module 'website' est installé
     'data': [
-        'views/assets.xml',  # Chemin des assets pour le CSS et JS
-        'views/snippet_templates.xml',  # Fichier template pour les snippets
-        'views/snippet_Ajout_module.xml', 
+        'views/assets.xml',
+        'views/snippet_templates.xml',
+        'views/snippet_Ajout_module.xml',
     ],
     'assets': {
         'web.assets_frontend': [
@@ -20,7 +20,7 @@
             'bmi_calculateur_snippet/static/src/js/bmi_calculator.js',
         ],
     },
-    'application': True,  # Si tu veux que ce soit une application visible
+ 
     'installable': True,
     'auto_install': False,
     'license': 'AGPL-3',
